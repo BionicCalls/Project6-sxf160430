@@ -11,11 +11,11 @@ CPPFLAGS = -I /scratch/perkins/include
 
 #
 # Set up any Linker Flags
-LDFLAGS = -L/scratch/perkins/lib -static
+LDFLAGS = -L/scratch/perkins/lib 
 
 #
 # List of Libraries
-LDLIBS = -l cdk -lcurses
+LDLIBS = -lcdk -lcurses
 
 #
 # We choose the project name.  This is used in building the file name for the backup target
@@ -23,7 +23,7 @@ PROJECTNAME = Project6
 
 #
 # We choose the source files to include and name the output
-SRCS =
+SRCS = main.cc
 
 #
 # We choose the name of the executable to be created
