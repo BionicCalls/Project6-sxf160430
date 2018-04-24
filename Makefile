@@ -23,7 +23,7 @@ PROJECTNAME = Project6
 
 #
 # We choose the source files to include and name the output
-SRCS = main.cc
+SRCS = main.cc binRead.cc
 
 #
 # We choose the name of the executable to be created
